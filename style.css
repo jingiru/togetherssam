@@ -119,6 +119,27 @@ footer {
   border-top: 1px solid #ddd;
 }
 
+/* 보조인력 프로필 카드 스타일 */
+.profile {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.profile h3 {
+  margin-top: 0;
+  color: #005bbb;
+}
+
+.profile p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
 /* 모바일 대응 */
 @media (max-width: 600px) {
   nav ul {

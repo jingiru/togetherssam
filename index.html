@@ -17,7 +17,7 @@
       <li><a href="#intro">소개</a></li>
       <li><a href="#features">주요 기능</a></li>
       <li><a href="#apply">학교 신청</a></li>
-      <li><a href="#join">인력 등록</a></li>
+      <li><a href="#profiles">보조인력 프로필</a></li>
     </ul>
   </nav>
 
@@ -33,6 +33,7 @@
         <li>인력풀 기반 자동 매칭 시스템</li>
         <li>디지털 점검 체크리스트 및 활동 보고서 자동화</li>
         <li>QR 출석, 위험신고, 알림 기능</li>
+        <li>보조인력 프로필 및 후기 열람</li>
         <li>책임 분산형 안전관리 구조</li>
       </ul>
     </section>
@@ -48,21 +49,25 @@
       </form>
     </section>
 
-    <section id="join">
-      <h2>보조인력 등록</h2>
-      <p>교육청 인증을 받은 후, 인력풀에 등록하고 매칭 요청을 받을 수 있습니다.</p>
-      <form>
-        <label>이름: <input type="text" name="name" required></label><br />
-        <label>연락처: <input type="tel" name="phone" required></label><br />
-        <label>활동 가능 지역: <input type="text" name="region" required></label><br />
-        <button type="submit">등록 신청</button>
-      </form>
+    <section id="profiles">
+      <h2>보조인력 프로필 열람</h2>
+      <div class="profile">
+        <h3>김보조 선생님</h3>
+        <p>지역: 서울 강서구<br />경력: 체험학습 보조 3년<br />특이사항: CPR 자격 보유</p>
+        <p><strong>후기:</strong> “학생을 친절하게 잘 돌봐주셨어요.” – OO초</p>
+      </div>
+      <div class="profile">
+        <h3>이보조 선생님</h3>
+        <p>지역: 경기 성남시<br />경력: 체험학습 보조 5년<br />특이사항: 안전지도사 2급</p>
+        <p><strong>후기:</strong> “안전교육을 꼼꼼히 진행해주셔서 좋았습니다.” – XX중</p>
+      </div>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2025 함께가쌤. All rights reserved.</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>

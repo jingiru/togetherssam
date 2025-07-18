@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>함께가쌤 - 체험학습 안전보조인력 매칭 플랫폼</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>함께가쌤</h1>
+    <p>현장체험학습 안전보조인력 매칭 플랫폼</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#intro">소개</a></li>
+      <li><a href="#features">주요 기능</a></li>
+      <li><a href="#apply">학교 신청</a></li>
+      <li><a href="#join">인력 등록</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="intro">
+      <h2>함께가쌤이란?</h2>
+      <p>학교 단체 체험학습 시, 교육청/지자체가 인증한 안전보조인력을 자동 매칭해주는 플랫폼입니다.</p>
+    </section>
+
+    <section id="features">
+      <h2>주요 기능</h2>
+      <ul>
+        <li>인력풀 기반 자동 매칭 시스템</li>
+        <li>디지털 점검 체크리스트 및 활동 보고서 자동화</li>
+        <li>QR 출석, 위험신고, 알림 기능</li>
+        <li>책임 분산형 안전관리 구조</li>
+      </ul>
+    </section>
+
+    <section id="apply">
+      <h2>학교 신청</h2>
+      <p>체험학습 일정, 장소, 학생 수 등을 입력하면 최적의 보조인력이 자동 추천됩니다.</p>
+      <form>
+        <label>학교명: <input type="text" name="school" required></label><br />
+        <label>체험일: <input type="date" name="date" required></label><br />
+        <label>학생 수: <input type="number" name="students" required></label><br />
+        <button type="submit">신청하기</button>
+      </form>
+    </section>
+
+    <section id="join">
+      <h2>보조인력 등록</h2>
+      <p>교육청 인증을 받은 후, 인력풀에 등록하고 매칭 요청을 받을 수 있습니다.</p>
+      <form>
+        <label>이름: <input type="text" name="name" required></label><br />
+        <label>연락처: <input type="tel" name="phone" required></label><br />
+        <label>활동 가능 지역: <input type="text" name="region" required></label><br />
+        <button type="submit">등록 신청</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 함께가쌤. All rights reserved.</p>
+  </footer>
+</body>
+</html>
